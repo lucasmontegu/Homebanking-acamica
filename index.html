@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
+    <script src="/js/homebanking.js"></script>
+    <title>HOME BANKING</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+    <a href="index.html" id="logout"></a>
+    <div class="header">
+        <img class="logo" src="img/logo.png" />
+        <div class="align-left">
+        </div>
+    </div>
+    <div class="white-container">
+
+        <div class="green-container">
+            <div id="login">
+                <form action="index.html" method="post" name="f1" id="formLogin">
+                        <label for="userName" class="fontawesome-user"></label>
+                        <input type="text" required name="userName" id="userName" placeholder="Username">
+                        <label for="userPwd" class="fontawesome-lock"></label>
+                        <input type="password" required name="userPwd" id="userPwd" placeholder="Password">
+                        <a href="homebanking.html" id="linkPage"><input type="submit" value="Login" onclick="loginPage()"></a> 
+                </form>
+            </div>
+            <!-- end login -->
+        </div>
+    </div>
+</body>
+
+</html>
